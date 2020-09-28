@@ -18,11 +18,7 @@ import cucumber.api.junit.Cucumber;
 		,tags= {"@Smoke"}
 		)
 
-		
-		
-		
-		
-	
-	
 
-public class SmokeRunner {GIT }
+public class SmokeRunner {
+	
+}
