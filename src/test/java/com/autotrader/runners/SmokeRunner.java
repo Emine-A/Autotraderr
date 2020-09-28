@@ -11,14 +11,13 @@ import cucumber.api.junit.Cucumber;
 		,glue= "com/autotrader/steps"
 		,dryRun=false         // find unimplemented if it is true before executed false show after executed
 		,plugin= {"pretty", "html:target/html/cucumber-default-report",
-				  "json:target/cucumber.json",
-				  "rerun:target/rerun.txt"}
+				"json:target/cucumber.json",
+		"rerun:target/rerun.txt"}
 		,monochrome=true  
-		
-		,tags= {"@Smoke"}
+
+				,tags= {"@Smoke"}
 		)
 
-
 public class SmokeRunner {
-	
+
 }
